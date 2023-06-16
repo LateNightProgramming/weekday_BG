@@ -2,13 +2,13 @@ import datetime
 import switchcase
 import ctypes
 
-v1 = "C:\\Users\\zacpo\\Desktop\\bg\\monday.png"
-v2 = "C:\\Users\\zacpo\\Desktop\\bg\\tuesday.png"
-v3 = "C:\\Users\\zacpo\\Desktop\\bg\\wednesday.png"
-v4 = "C:\\Users\\zacpo\\Desktop\\bg\\thursday.png"
-v5 = "C:\\Users\\zacpo\\Desktop\\bg\\friday.png"
-v6 = "C:\\Users\\zacpo\\Desktop\\bg\\saturday.png"
-v7 = "C:\\Users\\zacpo\\Desktop\\bg\\sunday.png"
+v1 = directory
+v2 = directory
+v3 = directory
+v4 = directory
+v5 = directory
+v6 = directory
+v7 = directory
 
 for case in switchcase.switch(datetime.datetime.today().weekday()):
     if case(0):

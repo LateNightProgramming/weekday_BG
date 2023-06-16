@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['balls.py'],
+a = Analysis(['code.py'],
              pathex=['.'],
              binaries=[],
              hiddenimports=[],
